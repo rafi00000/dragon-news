@@ -1,13 +1,14 @@
+import { Link } from 'react-router-dom';
 import userDefaultImage from '/images/user.png'
 
 const NavBar = () => {
   const navLinks = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to={'/'}>Home</Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link to={'/login'}>Login</Link>
       </li>
     </>
   );

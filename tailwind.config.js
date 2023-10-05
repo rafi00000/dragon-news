@@ -6,7 +6,7 @@ export default {
     ],
     
   theme: {
-    extend: {},
+    extend: {fontFamily:{}},
   },
   plugins: [require("daisyui")],
 }

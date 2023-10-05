@@ -1,8 +1,8 @@
-import { FaGoogle, FaGithub, FaFacebook, FaTwitterSquare, FaTwitter } from "react-icons/fa";
+import { FaGoogle, FaGithub, FaFacebook, FaTwitter } from "react-icons/fa";
 
 const RightSideNav = () => {
   return (
-    <div>
+    <div className="w-full">
       <div className="space-y-2 my-2">
         <h2 className="text-xl font-bold">Login With</h2>
 
@@ -38,8 +38,15 @@ const RightSideNav = () => {
           </a>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      {/* follow section ends */}
+
+      <div className="bg-slate-200 rounded-lg p-3 space-y-5">
+          <h2 className="text-xl font-bold">Q-Zone</h2>
+          <img src='/images/qZone1.png' alt="" className="mx-auto"/>
+          <img src='/images/qZone2.png' alt="" className="mx-auto"/>
+          <img src='/images/qZone3.png' alt="" className="mx-auto"/>
+      </div>
+      {/* Q-Zone Ends */}
     </div>
   );
 };
